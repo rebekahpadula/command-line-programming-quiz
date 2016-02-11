@@ -178,7 +178,7 @@ if (answer15.toLowerCase() === 'bold') {
 
 var stop = Date.now();
 var time =((stop - start) / 1000/ 60);
-console.log('You took ' + stop - start +' to finish this quiz!');
+console.log('You took ' + time +' to finish this quiz!');
 console.log('Your score is')
 console.log(score);
 console.log(score/15*100 +'%')
